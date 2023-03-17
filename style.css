@@ -1,0 +1,128 @@
+/* 
+- Very Dark Grayish Blue: hsl(217, 19%, 35%)
+- Desaturated Dark Blue: hsl(214, 17%, 51%)
+- Grayish Blue: hsl(212, 23%, 69%)
+- Light Grayish Blue: hsl(210, 46%, 95%)
+
+- Font size: 13px
+
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 500, 700
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com) */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(212, 23%, 69%);
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 1rem;
+  width: 60rem;
+  height: 25rem;
+  margin: 14rem auto;
+  display: flex;
+}
+
+.container .drawers {
+  width: 25rem;
+  height: 25rem;
+}
+
+.container .drawers img {
+  width: 25rem;
+  height: 25rem;
+  object-fit: fill;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.text {
+  width: 35rem;
+  height: 25rem;
+  padding: 3rem;
+}
+
+.text h1 {
+  color: hsl(217, 19%, 35%);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 1.5rem;
+}
+
+.text p {
+  color: hsl(214, 17%, 51%);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar .img--avatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.icon--share {
+  width: 19px;
+  height: 16px;
+}
+
+.btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(212, 23%, 69%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img--nameavatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img--nameavatar .img--avatar {
+  margin-right: 1.5rem;
+}
+
+.avatar--name h3 {
+  color: hsl(217, 19%, 35%);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.avatar--name p {
+  color: hsl(212, 23%, 69%);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 0 !important;
+}
